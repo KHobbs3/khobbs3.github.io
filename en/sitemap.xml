@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://khobbs3.github.io/projects/mars/</loc>
+    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/projects/shinyapp/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/code/heatmap-code/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/projects/heatmap/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/projects/thesis/</loc>
+    <lastmod>2018-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/</loc>
+    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://khobbs3.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://khobbs3.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/projects/</loc>
+    <lastmod>2020-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/code/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/code/blog/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/home/blog/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://khobbs3.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://khobbs3.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/home/</loc>
+  </url>
+  
+  <url>
+    <loc>https://khobbs3.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://khobbs3.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://khobbs3.github.io/tags/"
+                />
+  </url>
+  
+</urlset>
