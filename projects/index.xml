@@ -6,10 +6,20 @@
     <description>Recent content in Projects on kTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34;&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khobbs3.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Seattle Airbnb Spatial and Temporal Visualizations 2018-2019</title>
+      <link>https://khobbs3.github.io/projects/airbnb/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://khobbs3.github.io/projects/airbnb/</guid>
+      <description>Master of Data Science Project, UBC
+Tableau Seattle Airbnb Analysis</description>
+    </item>
     
     <item>
       <title>maRs package - Using NASA&#39;s API to visualize weather data from the InSight Lander</title>
@@ -32,16 +42,6 @@ body { background-color: #fff; margin: 1em auto; max-width: 700px; overflow: vis
       <guid>https://khobbs3.github.io/projects/shinyapp/</guid>
       <description>Master of Data Science Project, UBC
 https://ktshinyapps.shinyapps.io/housing/</description>
-    </item>
-    
-    <item>
-      <title>Seattle Airbnb Spatial and Temporal Visualizations 2018-2019</title>
-      <link>https://khobbs3.github.io/projects/airbnb/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://khobbs3.github.io/projects/airbnb/</guid>
-      <description>Master of Data Science Project, UBC
-Tableau Seattle Airbnb Analysis</description>
     </item>
     
     <item>

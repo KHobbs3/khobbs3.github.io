@@ -6,10 +6,20 @@
     <description>Recent content on kTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34;&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khobbs3.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Seattle Airbnb Spatial and Temporal Visualizations 2018-2019</title>
+      <link>https://khobbs3.github.io/projects/airbnb/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://khobbs3.github.io/projects/airbnb/</guid>
+      <description>Master of Data Science Project, UBC
+Tableau Seattle Airbnb Analysis</description>
+    </item>
     
     <item>
       <title>maRs package - Using NASA&#39;s API to visualize weather data from the InSight Lander</title>
@@ -44,16 +54,6 @@ https://ktshinyapps.shinyapps.io/housing/</description>
 Backgound Who are you? i.e. one of &amp;ldquo;airline employee&amp;rdquo;, &amp;ldquo;airline consultant&amp;rdquo;, &amp;ldquo;air traffic regulator&amp;rdquo;, &amp;ldquo;citizen watchdog&amp;rdquo;, &amp;ldquo;reporter for NY Times&amp;rdquo;, &amp;hellip; Journalist for Lonely Planet
 Who is your audience? i.e. one of &amp;ldquo;airline CEO&amp;rdquo;, &amp;ldquo;Director of NAS&amp;rdquo;, &amp;ldquo;general public&amp;rdquo;, &amp;hellip; Travellers - for domestic USA flights
 Where you are presenting this? i.e. one of &amp;ldquo;newspaper&amp;rdquo;, &amp;ldquo;TV public service announce- ment&amp;rdquo;, as a static display on the website of a single airline, or the NAS, or the NY Times, &amp;hellip; E-magazine article</description>
-    </item>
-    
-    <item>
-      <title>Seattle Airbnb Spatial and Temporal Visualizations 2018-2019</title>
-      <link>https://khobbs3.github.io/projects/airbnb/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://khobbs3.github.io/projects/airbnb/</guid>
-      <description>Master of Data Science Project, UBC
-Tableau Seattle Airbnb Analysis</description>
     </item>
     
     <item>
