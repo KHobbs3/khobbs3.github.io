@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://khobbs3.github.io/projects/heatmap/</loc>
+    <lastmod>2019-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://khobbs3.github.io/code/heatmap-code/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -50,11 +55,6 @@
   <url>
     <loc>https://khobbs3.github.io/code/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khobbs3.github.io/code/blog/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

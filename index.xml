@@ -45,6 +45,18 @@ https://ktshinyapps.shinyapps.io/housing/</description>
     </item>
     
     <item>
+      <title>Blog for U.S. Airline Cancellations Ratios</title>
+      <link>https://khobbs3.github.io/projects/heatmap/</link>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://khobbs3.github.io/projects/heatmap/</guid>
+      <description>Master of Data Science Project, UBC
+Reliable airlines for your USA itinerary The United States is a buzzing tourism hub for many, offering scenes from dense natural reserves to innovative cityscapes, and every combination between.
+With 9.834 million km² to explore, it&amp;rsquo;s no surprise that even locals look for quick vacation getaways or short-term adventure travels here.
+To help narrow down the backyard traveller&amp;rsquo;s itinerary and ensure every minute of travel is optimized, Lonely Planet has sent their top data scientists finger-tips-first into 2008&amp;rsquo;s USA flight data.</description>
+    </item>
+    
+    <item>
       <title>Heatmap of USA Airline Cancellation Ratios</title>
       <link>https://khobbs3.github.io/code/heatmap-code/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
@@ -64,15 +76,6 @@ Where you are presenting this? i.e. one of &amp;ldquo;newspaper&amp;rdquo;, &amp
       <guid>https://khobbs3.github.io/projects/thesis/</guid>
       <description>BMSc. Biochemistry Thesis, UWO
 https://github.com/KHobbs3/4483</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://khobbs3.github.io/code/blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://khobbs3.github.io/code/blog/</guid>
-      <description></description>
     </item>
     
   </channel>
