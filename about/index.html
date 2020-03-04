@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:KT Hobbs]">
+<meta name="description" content="Master of Data Science Project, UBC
+Backgound Who are you? i.e. one of &amp;ldquo;airline employee&amp;rdquo;, &amp;ldquo;airline consultant&amp;rdquo;, &amp;ldquo;air traffic regulator&amp;rdquo;, &amp;ldquo;citizen watchdog&amp;rdquo;, &amp;ldquo;reporter for NY Times&amp;rdquo;, &amp;hellip; Journalist for Lonely Planet
+Who is your audience? i.e. one of &amp;ldquo;airline CEO&amp;rdquo;, &amp;ldquo;Director of NAS&amp;rdquo;, &amp;ldquo;general public&amp;rdquo;, &amp;hellip; Travellers - for domestic USA flights
+Where you are presenting this? i.e. one of &amp;ldquo;newspaper&amp;rdquo;, &amp;ldquo;TV public service announce- ment&amp;rdquo;, as a static display on the website of a single airline, or the NAS, or the NY Times, &amp;hellip; E-magazine article" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://khobbs3.github.io/about/" />
+
+
+    <title>
+        
+            Heatmap of USA Airline Cancellation Ratios :: kTech  — KT-portfolio
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://khobbs3.github.io/main.min.2f0d18b84270567c723bff340b09ab08db3a7634237cd9667d052eb6b14669b8.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://khobbs3.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://khobbs3.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://khobbs3.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://khobbs3.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://khobbs3.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://khobbs3.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="Heatmap of USA Airline Cancellation Ratios">
+<meta itemprop="description" content="Master of Data Science Project, UBC
+Backgound Who are you? i.e. one of &ldquo;airline employee&rdquo;, &ldquo;airline consultant&rdquo;, &ldquo;air traffic regulator&rdquo;, &ldquo;citizen watchdog&rdquo;, &ldquo;reporter for NY Times&rdquo;, &hellip; Journalist for Lonely Planet
+Who is your audience? i.e. one of &ldquo;airline CEO&rdquo;, &ldquo;Director of NAS&rdquo;, &ldquo;general public&rdquo;, &hellip; Travellers - for domestic USA flights
+Where you are presenting this? i.e. one of &ldquo;newspaper&rdquo;, &ldquo;TV public service announce- ment&rdquo;, as a static display on the website of a single airline, or the NAS, or the NY Times, &hellip; E-magazine article">
+
+
+<meta itemprop="datePublished" content="2019-12-01T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-12-01T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="473">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://khobbs3.github.io/"/>
+
+<meta name="twitter:title" content="Heatmap of USA Airline Cancellation Ratios"/>
+<meta name="twitter:description" content="Master of Data Science Project, UBC
+Backgound Who are you? i.e. one of &ldquo;airline employee&rdquo;, &ldquo;airline consultant&rdquo;, &ldquo;air traffic regulator&rdquo;, &ldquo;citizen watchdog&rdquo;, &ldquo;reporter for NY Times&rdquo;, &hellip; Journalist for Lonely Planet
+Who is your audience? i.e. one of &ldquo;airline CEO&rdquo;, &ldquo;Director of NAS&rdquo;, &ldquo;general public&rdquo;, &hellip; Travellers - for domestic USA flights
+Where you are presenting this? i.e. one of &ldquo;newspaper&rdquo;, &ldquo;TV public service announce- ment&rdquo;, as a static display on the website of a single airline, or the NAS, or the NY Times, &hellip; E-magazine article"/>
+
+
+
+
+
+    <meta property="article:published_time" content="2019-12-01 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://khobbs3.github.io" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=""></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://khobbs3.github.io/projects/">projects</a></li><li><a href="https://khobbs3.github.io/publications/">publications</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://khobbs3.github.io/about/">Heatmap of USA Airline Cancellation Ratios</a></h2>
+
+            
+
+            <div class="post-content">
+                
+
+<p>Master of Data Science Project, UBC</p>
+
+<hr />
+
+<h3 id="backgound">Backgound</h3>
+
+<p><strong>Who are you? i.e. one of &ldquo;airline employee&rdquo;, &ldquo;airline consultant&rdquo;, &ldquo;air traffic regulator&rdquo;, &ldquo;citizen watchdog&rdquo;, &ldquo;reporter for NY Times&rdquo;, &hellip;</strong>
+Journalist for Lonely Planet</p>
+
+<p><strong>Who is your audience? i.e. one of &ldquo;airline CEO&rdquo;, &ldquo;Director of NAS&rdquo;, &ldquo;general public&rdquo;, &hellip;</strong>
+Travellers - for domestic USA flights</p>
+
+<p><strong>Where you are presenting this? i.e. one of &ldquo;newspaper&rdquo;, &ldquo;TV public service announce- ment&rdquo;, as a static display on the website of a single airline, or the NAS, or the NY Times, &hellip;</strong>
+E-magazine article</p>
+
+<p><strong>Why are you presenting this? What is the basic message that you are trying to convey? (One sentence)</strong>
+To allow travellors to select the most suitable airline for their itinerary by providing information on the tendency of airline cancellations by origin.</p>
+
+<hr />
+
+<h3 id="analysis">Analysis</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r,echo = T, results='hide'" data-lang="r,echo = T, results='hide'">library(&#39;data.table&#39;)
+library(&#39;dplyr&#39;)
+air &lt;- read.csv(&#34;air.csv&#34;)
+
+# checked, there&#39;s no NA in variable &#39;Cancelled&#39;, thus there&#39;s no need to remove or impute NAs
+sum(air$Cancelled==&#39;NA&#39;)</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r,echo = T, results = 'hide'" data-lang="r,echo = T, results = 'hide'"># calculate the number of cancels by origin and unique carrier 
+cancels &lt;- aggregate(air$Cancelled, by=list(air$Origin, air$UniqueCarrier), FUN=sum)
+colnames(cancels) &lt;- c(&#34;Origin&#34;, &#34;UniqueCarrier&#34;, &#34;CancelledSums&#34;)
+
+# count the total number of flights by origin and unique carrier
+counts &lt;- air %&gt;% 
+  count(Origin, UniqueCarrier)
+colnames(counts) &lt;- c(&#34;Origin&#34;, &#34;UniqueCarrier&#34;, &#34;Counts&#34;)
+
+# join the cancels dataset and counts dataset
+cancelData &lt;- full_join(cancels,counts,by = c(&#34;Origin&#34;, &#34;UniqueCarrier&#34;))
+
+# calculate the cancel ratio 
+cancelData$CancelRatio &lt;- cancelData$CancelledSums/cancelData$Counts</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r,echo = F" data-lang="r,echo = F"># filter cancelData by top 20 most popular origins 
+# plot barplot of top 20 Most Popular Departure Origins
+library(&#39;viridis&#39;)</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r, eval=T" data-lang="r, eval=T">tableOrigin &lt;- table(air$Origin)
+popular_origin &lt;- sort(tableOrigin, decreasing = T)</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r, eval = F" data-lang="r, eval = F">yticks &lt;- c(0, 100000, 200000, 300000, 400000)
+ylabels &lt;- c(&#39;0&#39;, &#39;10000&#39;, &#39;20000&#39;, &#39;300000&#39;, &#39;400000&#39;)
+barplot(popular_origin[1:20], ylim=c(0,450000), las=2, 
+        axes=F,
+        col=viridis(n=25, begin = 0, end = 1), cex.names=0.85)
+axis(side=2, at=yticks, labels=ylabels, las = 2)
+title(&#34;Most Popular Departure Origins for USA Flights&#34;)</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r,echo = T, results = 'hide'" data-lang="r,echo = T, results = 'hide'"># sort the filtered cancelData by frequency (popularity of the origin)
+Origins &lt;- as.data.frame(popular_origin)
+colnames(Origins) &lt;- c(&#34;Origin&#34;, &#34;Frequence&#34;)
+
+cancelData20 &lt;-merge(cancelData %&gt;% filter(Origin %in% Origins[1:20,]$Origin),Origins[1:20,], type=&#39;left&#39;, match=&#39;first&#39;)
+cancelData20&lt;-cancelData20[rev(order(cancelData20$Frequence)),]</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r,echo = T" data-lang="r,echo = T"># heatmap for cancel ratio by origin and carrier, dark blue represents low cancel ratio, red represents high cancel ratio, grey means no flights with the carrier from the origin
+library(ggplot2)
+
+cancel.hm &lt;- ggplot(data = cancelData20 , rescalar = scale_colour_gradient2(), mapping = aes( x = UniqueCarrier,
+                                                       y = Origin,
+                                                       fill = CancelRatio)) +
+ geom_tile() +
+  xlab(label = &#34;popular_origin&#34;)+
+  scale_fill_gradient(name = &#34;Cancellation Ratio&#34;,
+                      low = &#34;darkblue&#34;,
+                      high = &#34;red&#34;)
+
+ggplotly(cancel.hm)</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r,echo = T, results = 'hide'" data-lang="r,echo = T, results = 'hide'"># import and format airportnames data table 
+library(knitr)
+library(kableExtra)
+airportnames &lt;- read.table(&#39;airportnames.txt&#39;)
+
+df1 &lt;- select(airportnames, &#39;code&#39;,&#39;fullname&#39;)
+df1 &lt;- df1[order(df1$code,decreasing = TRUE),]
+rownames(df1)&lt;-NULL
+colnames(df1) &lt;- c(&#39;Code&#39;,&#39;Fullname&#39;)
+
+df1 %&gt;%
+  kable() %&gt;%
+  kable_styling(bootstrap_options = &#34;striped&#34;, full_width = F, position = &#34;left&#34;)</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r,echo = T, results = 'hide'" data-lang="r,echo = T, results = 'hide'"># import and format airlinecarriers data table 
+airlinecarriers &lt;- read.table(&#39;airlinecarriers.txt&#39;)
+airlinecarriers&lt;- select(airlinecarriers, &#39;carrierCode&#39;,&#39;carrier&#39;)
+
+rownames(airlinecarriers)&lt;-NULL
+colnames(airlinecarriers) &lt;- c(&#39;CarrierCode&#39;,&#39;Carrier&#39;)
+
+airlinecarriers %&gt;%
+  kable() %&gt;%
+  kable_styling(bootstrap_options = &#34;striped&#34;, full_width = F, position = &#34;left&#34;)</code></pre></div>
+<h1 id="data-sources">Data Sources</h1>
+
+<p><em>Airline Carrier code <code>airlinecarriers.txt</code> information retrieved from: <a href="https://www.iata.org/publications/pages/code-search.aspx" target="_blank">IATA</a></em></p>
+
+<p><em>Airport information retrieved from: <a href="https://openflights.org/data.html" target="_blank">Open Flights</a></em></p>
+
+<p><em>Airport analysis data retrieved from: <a href="http://rtricks4kids.ok.ubc.ca/wjbraun/DS550/air.csv." target="_blank"> R Tricks for kids</a></em></p>
+
+<p>Jasmine Chen &amp; KT Hobbs</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  			</div>
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://khobbs3.github.io/">KT Hobbs</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"</a></span>
+            <span> <a href="https://khobbs3.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://khobbs3.github.io/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>
