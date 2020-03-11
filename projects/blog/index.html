@@ -7,7 +7,7 @@
 <meta name="author" content="map[name:KT Hobbs]">
 <meta name="description" content="Data 552 - Master of Data Science Project, UBC
 Written by: Kaitlyn Hobbs
-Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled Can We Trust The Numbers that discusses the importance and caveats associated with data in the average citizen&amp;rsquo;s day-to-day, with one particular concern citing misrepresentation of data.
+Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled Can We Trust The Numbers that discusses importance and caveats associated with data in the average citizen&amp;rsquo;s day-to-day, one particular concern citing misrepresentation of data.
 As we enter the crux of a Big Data Revolution, it is important to equip ourselves with skills required to think critically about the massive amount of data regularly being presented." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
@@ -45,13 +45,13 @@ As we enter the crux of a Big Data Revolution, it is important to equip ourselve
 <meta itemprop="name" content="Trusting the Numbers">
 <meta itemprop="description" content="Data 552 - Master of Data Science Project, UBC
 Written by: Kaitlyn Hobbs
-Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled Can We Trust The Numbers that discusses the importance and caveats associated with data in the average citizen&rsquo;s day-to-day, with one particular concern citing misrepresentation of data.
+Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled Can We Trust The Numbers that discusses importance and caveats associated with data in the average citizen&rsquo;s day-to-day, one particular concern citing misrepresentation of data.
 As we enter the crux of a Big Data Revolution, it is important to equip ourselves with skills required to think critically about the massive amount of data regularly being presented.">
 
 
 <meta itemprop="datePublished" content="2020-03-10T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-03-10T18:32:03-07:00" />
-<meta itemprop="wordCount" content="753">
+<meta itemprop="wordCount" content="781">
 
 
 
@@ -62,7 +62,7 @@ As we enter the crux of a Big Data Revolution, it is important to equip ourselve
 <meta name="twitter:title" content="Trusting the Numbers"/>
 <meta name="twitter:description" content="Data 552 - Master of Data Science Project, UBC
 Written by: Kaitlyn Hobbs
-Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled Can We Trust The Numbers that discusses the importance and caveats associated with data in the average citizen&rsquo;s day-to-day, with one particular concern citing misrepresentation of data.
+Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled Can We Trust The Numbers that discusses importance and caveats associated with data in the average citizen&rsquo;s day-to-day, one particular concern citing misrepresentation of data.
 As we enter the crux of a Big Data Revolution, it is important to equip ourselves with skills required to think critically about the massive amount of data regularly being presented."/>
 
 
@@ -144,13 +144,13 @@ As we enter the crux of a Big Data Revolution, it is important to equip ourselve
 
 <hr />
 
-<p>Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled <a href="https://www.npr.org/programs/ted-radio-hour/580617765/can-we-trust-the-numbers" target="_blank"><em>Can We Trust The Numbers</em></a> that discusses the importance and caveats associated with data in the average citizen&rsquo;s day-to-day, with one particular concern citing misrepresentation of data.</p>
+<p>Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled <a href="https://www.npr.org/programs/ted-radio-hour/580617765/can-we-trust-the-numbers" target="_blank"><em>Can We Trust The Numbers</em></a> that discusses importance and caveats associated with data in the average citizen&rsquo;s day-to-day, one particular concern citing misrepresentation of data.</p>
 
 <p>As we enter the crux of a Big Data Revolution, it is important to equip ourselves with skills required to think critically about the massive amount of data regularly being presented.</p>
 
 <h3 id="misrepresentation-using-world-happiness-report-data">Misrepresentation Using World Happiness Report Data</h3>
 
-<p>Using data collected through survey by the Gallup World Poll and processed by <a href="https://worldhappiness.report/ed/2019/" target="_blank">World Happiness Report</a>, we can investigate how different visualizations suggest different conclusions.</p>
+<p>Using survey data collected by the Gallup World Poll and processed by <a href="https://worldhappiness.report/ed/2019/" target="_blank">World Happiness Report</a>, we can investigate how different visualizations suggest different conclusions.</p>
 
 <h5 id="about-the-data">About the data</h5>
 
@@ -216,9 +216,11 @@ As we enter the crux of a Big Data Revolution, it is important to equip ourselve
 
 <p>We can try to read this visualization by observing the legend, which notates positive and negative perceptions or circumstances with a dash (-) or plus (+) sign, respectively.</p>
 
-<p>At first glance, we can notice how uninformative the colours are. We can&rsquo;t easily discern the difference between positive and negative categories.</p>
+<p>At first glance, the colours are uninformative. A reader can&rsquo;t easily discern the difference between positive and negative categories.</p>
 
-<p>Additionally, a general concer with visualizing numerical comparisons with maps is that viewers will perceive coloured areas to be proportionate to their values. In this case, it looks as though Canada rates the highest in life quality of those nations with positive mindsets and circumstances when, in actuality, Finland ranks the highest.</p>
+<p>Additionally, country borders are indistinguishable and identifying some locations requires extensive geographical knowledge. Can you see where Germany ends and Switzerland begins?</p>
+
+<p>Moreover, a non-obvious concern for visualizing numerical comparisons on maps is that viewers will perceive coloured areas to be proportionate to their values. In this case, it looks as though Canada rates the highest in life quality of those nations with positive mindsets and circumstances when, in actuality, Finland ranks highest.</p>
 
 <h3 id="boring-yet-honest-visualizations">Boring Yet Honest Visualizations</h3>
 
@@ -226,19 +228,17 @@ As we enter the crux of a Big Data Revolution, it is important to equip ourselve
 
 <p><img src="https://khobbs3.github.io/GWP-bar.png" alt="" /></p>
 
-<p>The colours used clearly group data by perceptions (green tones for negative perceptions and red tones for positive) as well as use shading to contrast circumstances. Vertical bars allow readers to compare groups accurately and instantaneously - without much background knowledge in statistics.</p>
+<p>The colours used clearly group data by perceptions (green tones for negative perceptions and red tones for positive) and dark/light shading contrasts positive/negative circumstances. Vertical bars allow readers to compare groups accurately and instantaneously while requiring little background knowledge in statistics.</p>
 
-<p>Using the same legend as the map, we can better observe that nations with positive circumstances and positive thinking rate their life quality much higher than those who think positively yet have negative circumstances.</p>
+<p>Using the same legend as the map, we can better observe that nations with positive circumstances and positive thinking rate their life quality much higher than those who think positively yet have negative circumstances - <em>a contrast to our original scatterplot that suggested positive thinking could improve overall life quality!</em></p>
 
-<p>A contrast to our original scatterplot that suggested positive thinking could improve overall life quality!</p>
-
-<p>Moving forward, we should be more aware of the possibility that other variables not considered in graphics that show correlations may be involved in the bigger picture before we draw conclusions.</p>
+<p>Moving forward, we should be more aware of the possibility that other variables not considered in correlation graphics may be involved in the story being told by the data before conclusions are drawn.</p>
 
 <hr />
 
 <h4 id="take-away">Take Away</h4>
 
-<p>We saw how correlation does not imply causation and how misleading representing quantities in a map can be.</p>
+<p>Using the Gallup World Poll results as interpreted by World Happiness Report, we saw how correlation does not imply causation and how misleading representing quantities in a map can be.</p>
 
 <p>It may seem a little disappointing that the most informative, easily read, and truthful illustration of data can sometimes be as simple as a bar plot; however, with the massive amounts of data circulating our perceptions every day, it is vital that we be presented with information thats representative <em>at first glance</em>, for people at all levels of data literacy.</p>
 
