@@ -39,7 +39,8 @@ Tableau Seattle Airbnb Analysis</description>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://khobbs3.github.io/projects/mars/</guid>
-      <description>Master of Data Science Course Work, UBC
+      <description>Authors: Claudia Nikel, KT Hobbs, Shreeram Murali
+Master of Data Science Course Work, UBC
 https://github.com/Claudia-Nikel/maRs
 
 NASA Mars API Vignette
@@ -47,7 +48,7 @@ body { background-color: #fff; margin: 1em auto; max-width: 700px; overflow: vis
     </item>
     
     <item>
-      <title>Housing Inventory Search - Shiny App</title>
+      <title>Shiny App - Housing Inventory Search</title>
       <link>https://khobbs3.github.io/projects/shinyapp/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
@@ -57,12 +58,13 @@ https://ktshinyapps.shinyapps.io/housing/</description>
     </item>
     
     <item>
-      <title>Blog for U.S. Airline Cancellations Ratios</title>
+      <title>Blog - U.S. Airline Cancellations Ratios</title>
       <link>https://khobbs3.github.io/projects/heatmap/</link>
       <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://khobbs3.github.io/projects/heatmap/</guid>
-      <description>Master of Data Science Project, UBC
+      <description>Authors: Kaitlyn Hobbs and Jasmine Chen
+Master of Data Science Project, UBC
 Reliable airlines for your USA itinerary The United States is a buzzing tourism hub for many, offering scenes from dense natural reserves to innovative cityscapes, and every combination between.
 With 9.834 million km² to explore, it&amp;rsquo;s no surprise that even locals look for quick vacation getaways or short-term adventure travels here.
 To help narrow down the backyard traveller&amp;rsquo;s itinerary and ensure every minute of travel is optimized, Lonely Planet has sent their top data scientists finger-tips-first into 2008&amp;rsquo;s USA flight data.</description>
