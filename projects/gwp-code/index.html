@@ -46,7 +46,7 @@ Part 1: Cleaning # drop unneccessary columns life2 &lt;- life[1:16] # rename col
 
 
 <meta itemprop="datePublished" content="2020-03-14T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-03-13T21:07:41-07:00" />
+<meta itemprop="dateModified" content="2020-03-14T14:08:14-07:00" />
 <meta itemprop="wordCount" content="654">
 
 
@@ -136,7 +136,7 @@ Part 1: Cleaning # drop unneccessary columns life2 &lt;- life[1:16] # rename col
 
 <hr />
 
-<h2 id="part-1-cleaning">Part 1: Cleaning</h2>
+<h3 id="part-1-cleaning">Part 1: Cleaning</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r Cleaning" data-lang="r Cleaning"># drop unneccessary columns
 life2 &lt;- life[1:16]
 
@@ -151,7 +151,7 @@ for (i in life2$Country){
 }
 
 max(life2$Year)</code></pre></div>
-<h2 id="part-2-make-measures-and-group-data">Part 2: Make measures and group data</h2>
+<h3 id="part-2-make-measures-and-group-data">Part 2: Make measures and group data</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r log GDP growth" data-lang="r log GDP growth">library(dplyr)
 
 # subset years and assemble countries into 4 groups: ----
@@ -266,7 +266,7 @@ groupD &lt;- subset(life3,
          )
 
 avgD &lt;- mean(groupD$Ladder)</code></pre></div>
-<h2 id="part-3-compare-groups">Part 3: Compare groups</h2>
+<h3 id="part-3-compare-groups">Part 3: Compare groups</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r assess data, include = F" data-lang="r assess data, include = F"># Assumption 1: is it iid?
 
 # Assumption 2: is it Normal?
@@ -362,7 +362,7 @@ t.test(groupB$Ladder, groupD$Ladder)</code></pre></div>
         <hr />
 
         <div class="post-info">
-  				    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="af9f3b1e57953a4cd0bd253367136599b0e382cf" target="_blank" rel="noopener">af9f3b1</a> @ 2020-03-13</p>
+  				    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="86ab520fa7c827e8cf8b87735184b38c7bf4faaa" target="_blank" rel="noopener">86ab520</a> @ 2020-03-14</p>
   			</div>
 
         
