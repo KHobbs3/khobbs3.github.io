@@ -6,32 +6,10 @@
     <description>Recent content on KT</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34;&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khobbs3.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Code - World Happiness Report Data Analysis</title>
-      <link>https://khobbs3.github.io/projects/gwp-code/</link>
-      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://khobbs3.github.io/projects/gwp-code/</guid>
-      <description>Data 552 - Master of Data Science Project, UBC
-Part 1: Cleaning # drop unneccessary columns life2 &amp;lt;- life[1:16] # rename columns for simplicity colnames(life2) &amp;lt;- c(&amp;#34;Country&amp;#34;, &amp;#34;Year&amp;#34;, &amp;#34;Ladder&amp;#34;, &amp;#34;logGDP&amp;#34;, &amp;#34;Support&amp;#34;, &amp;#34;LifeExp&amp;#34;, &amp;#34;Freedom&amp;#34;, &amp;#34;Generosity&amp;#34;, &amp;#34;Corruption&amp;#34;, &amp;#34;PosAffect&amp;#34;, &amp;#34;NegAffect&amp;#34;, &amp;#34;GovConf&amp;#34;, &amp;#34;DemQuality&amp;#34;, &amp;#34;DeliveryQuality&amp;#34;, &amp;#34;Inequality&amp;#34;, &amp;#34;InequalityFromAverage&amp;#34;) Part 2: Make measures and group data library(dplyr) # subset years and assemble countries into 4 groups: ---- life3 &amp;lt;- subset(life2, Year &amp;gt;= 2017) # sort by country ---- rwidx &amp;lt;- order(life3$Country, life3$Year) life4 &amp;lt;- life3[rwidx, seq(1:16), drop = FALSE] # initialize variables ---- j &amp;lt;- life4$Country[1] dif &amp;lt;- NA # determine differences in log GDP per nation over time (years) ---- for (i in seq(life4$Country[2:nrow(life4)])){ if (life4$Country[i] == j){ sub &amp;lt;- NA #print(paste(life4$Country[i], &amp;#34;is equal to&amp;#34;, j)) sub &amp;lt;- subset(life4, life4$Country == j) dif &amp;lt;- append(dif, diff(sub$logGDP)) } else { #print(paste(life4$Country[i], &amp;#34;is not equal to&amp;#34;, j)) #print(paste(j, &amp;#34;is now&amp;#34;, life4$Country[i+1])) j &amp;lt;- life4$Country[i+1] dif &amp;lt;- append(dif, NA) } } dif2 &amp;lt;- as.</description>
-    </item>
-    
-    <item>
-      <title>Blog - Trusting the Numbers</title>
-      <link>https://khobbs3.github.io/projects/gwp-blog/</link>
-      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://khobbs3.github.io/projects/gwp-blog/</guid>
-      <description>Data 552 - Master of Data Science Project, UBC
-Written by: Kaitlyn Hobbs
-Not too long ago, I was listening to an episode of my favourite podcast, Ted Radio Hour, entitled Can We Trust The Numbers, which discusses how data is involved in the average citizen&amp;rsquo;s day-to-day. One concern for living in this Big Data era was the impact of misrepresented numbers on our perception of the world.
-As we enter the crux of a Big Data Revolution, it is important to equip ourselves with skills required to think critically about the massive amount of information regularly presented.</description>
-    </item>
     
     <item>
       <title>Seattle Airbnb Spatial and Temporal Visualizations 2018-2019</title>
@@ -86,8 +64,8 @@ To help narrow down the backyard traveller&amp;rsquo;s itinerary and ensure ever
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://khobbs3.github.io/about/</guid>
-      <description>In the work place I enjoy the dedication, challenges, problem solving, and storyline involved with medium-length projects. My biggest weakness is getting swallowed by &amp;ldquo;mental wormholes&amp;rdquo;; a term I use to describe getting lost in chains of thought (or research) that take me towards a realm unrelated to my original investigation. I find my focus generally improves with regular meditation.
-Personal life I have always sought out balance in life.</description>
+      <description>In the work place I enjoy the required dedication, challenges, problem solving, and storyteling involved with project-oriented work. My biggest weakness is getting lost in trains of thought (or research) that deviate from my original investigation; however, sometimes this tendency brings me to new resources that offer a more holistic scope of inquiry.
+Personal life I have always sought balance in life; I love to exercise my left-brain by studying science, statistics and programming while satisfying my right-brain through writing, contemporary dance, and yoga.</description>
     </item>
     
     <item>
