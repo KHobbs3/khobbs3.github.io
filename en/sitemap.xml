@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://khobbs3.github.io/projects/capstone/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://khobbs3.github.io/projects/airbnb/</loc>
     <lastmod>2020-03-03T22:49:42-08:00</lastmod>
   </url>
@@ -39,7 +44,7 @@
   
   <url>
     <loc>https://khobbs3.github.io/</loc>
-    <lastmod>2020-06-12T16:22:16-07:00</lastmod>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -54,7 +59,7 @@
   
   <url>
     <loc>https://khobbs3.github.io/projects/</loc>
-    <lastmod>2020-03-12T23:06:52-07:00</lastmod>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
