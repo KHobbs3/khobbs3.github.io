@@ -25,16 +25,6 @@ Objectives:  To produce an inferential statistical model of factors that may be 
     </item>
     
     <item>
-      <title>Seattle Airbnb Spatial and Temporal Visualizations 2018-2019</title>
-      <link>https://khobbs3.github.io/projects/airbnb/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://khobbs3.github.io/projects/airbnb/</guid>
-      <description>Master of Data Science Project, UBC
-Tableau Seattle Airbnb Analysis</description>
-    </item>
-    
-    <item>
       <title>maRs package - Using NASA&#39;s API to visualize weather data from the InSight Lander</title>
       <link>https://khobbs3.github.io/projects/mars/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
@@ -56,19 +46,6 @@ body { background-color: #fff; margin: 1em auto; max-width: 700px; overflow: vis
       <guid>https://khobbs3.github.io/projects/shinyapp/</guid>
       <description>Master of Data Science Project, UBC
 https://ktshinyapps.shinyapps.io/housing/</description>
-    </item>
-    
-    <item>
-      <title>Blog - U.S. Airline Cancellations Ratios</title>
-      <link>https://khobbs3.github.io/projects/heatmap/</link>
-      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://khobbs3.github.io/projects/heatmap/</guid>
-      <description>Authors: Kaitlyn Hobbs and Jasmine Chen
-Master of Data Science Project, UBC
-Reliable airlines for your USA itinerary The United States is a buzzing tourism hub for many, offering scenes from dense natural reserves to innovative cityscapes, and every combination between.
-With 9.834 million km² to explore, it&amp;rsquo;s no surprise that even locals look for quick vacation getaways or short-term adventure travels here.
-To help narrow down the backyard traveller&amp;rsquo;s itinerary and ensure every minute of travel is optimized, Lonely Planet has sent their top data scientists finger-tips-first into 2008&amp;rsquo;s USA flight data.</description>
     </item>
     
     <item>
