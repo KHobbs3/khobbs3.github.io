@@ -17,11 +17,11 @@
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://khobbs3.github.io/projects/capstone/</guid>
-      <description>Master of Data Science Project, UBC
+      <description>Master of Data Science Capstone Project, UBC
+Bringing Understanding to the COVID-19 Outbreak in Ontario
 D3 Interactive Visualization
 Objectives:  To produce an inferential statistical model of factors that may be associated with the probability of COVID-19 outbreaks in different LTC homes in Ontario.
- To produce an inferential statistical model of the proximity and health factors that may be associated with COVID-19 disease activity at the level of the PHU regions in Ontario.
- To produce an interactive web page using QGIS and D3 to visualize the results from both PHU region analysis and LTC homes analyses.</description>
+ To produce an inferential statistical model of the proximity and health factors that may be associated with COVID-19 disease activity at the level of the PHU regions in Ontario.</description>
     </item>
     
     <item>
@@ -54,8 +54,8 @@ https://ktshinyapps.shinyapps.io/housing/</description>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://khobbs3.github.io/about/</guid>
-      <description>In the work place The determination, problem solving, and storytelling involved with project-oriented work appeals to me. My biggest weakness is getting lost in trains of thought (or research) that deviate from my original investigation; however, sometimes this tendency brings me to new resources that offer a more holistic scope of inquiry.
-Personal life I have always sought balance in life; I love to exercise my left-brain by studying science, statistics and programming while satisfying my right-brain through writing, contemporary dance, and yoga.</description>
+      <description>Personal life I have always sought balance in life; I love to exercise my left-brain by studying science, statistics and programming while satisfying my right-brain through writing, contemporary dance, and yoga.
+A 5-month travel through Asia and Europe moulded much of my current outlook. In brief, the experiences I had abroad involved pursuit, curiousity, patience and perseverance. Upon returning home to Canada, I felt as though I had a stronger sense of global connectivity, which recalibrated my perspective and perpetuated an itch to better understand our world and it&amp;rsquo;s diversity.</description>
     </item>
     
     <item>
@@ -65,9 +65,9 @@ Personal life I have always sought balance in life; I love to exercise my left-b
       
       <guid>https://khobbs3.github.io/publications/</guid>
       <description>filtR: a function for filtering error-derived OTUs/ASVs from count tables (2018) Authors: Ben Joris, Greg Gloor, Jean Macklaim, Daniel Giguere, Kaitlyn Hobbs
-Organization: Gloor Lab, Western University.
+Organization: Gloor Lab, The University of Western Ontario.
 Radiation Dose Estimation by Completely Automated Interpretation of the Dicentric Chromosome Assay (2018) Authors: Yanxin Li, Ben C Shirley, Ruth C Wilkins, Farrah Norton, Joan H M Knoll, Peter K Rogan
-Organization: Cytognomix, Western University.</description>
+Organization: Cytognomix, The University of Western Ontario.</description>
     </item>
     
     <item>
