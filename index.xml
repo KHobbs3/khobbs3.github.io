@@ -6,10 +6,24 @@
     <description>Recent content on KT</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34;&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khobbs3.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Shiny App - Covid-19 Cases and Intervention Timeline</title>
+      <link>https://khobbs3.github.io/projects/covidtimeline/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://khobbs3.github.io/projects/covidtimeline/</guid>
+      <description>Project currently under construction Timeline of COVID-19 cases and policy interventions in Canada&amp;rsquo;s Top 30 population centres.
+https://ktshinyapps.shinyapps.io/CovidTimeline/
+Contribute
+Sources:
+Berry I, Soucy J-PR, Tuite A, Fisman D. Open access epidemiologic data and an interactive dashboard to monitor the COVID-19 outbreak in Canada. CMAJ. 2020 Apr 14;192(15):E420. doi: https://doi.org/10.1503/cmaj.75262.
+&amp;ldquo;Canadian Institute for Health Information. COVID-19 Intervention Scan — Data Tables. Ottawa, ON: CIHI; October 21, 2020.&amp;rdquo;</description>
+    </item>
     
     <item>
       <title>Modeling and Visualization of COVID-19 in Ontario</title>
@@ -18,8 +32,8 @@
       
       <guid>https://khobbs3.github.io/projects/capstone/</guid>
       <description>Master of Data Science Capstone Project, UBC
-Bringing Understanding to the COVID-19 Outbreak in Ontario
-D3 Interactive Visualization
+Data Story: Bringing Understanding to the COVID-19 Outbreak in Ontario
+Interactive Visualization
 Objectives:  To produce an inferential statistical model of factors that may be associated with the probability of COVID-19 outbreaks in different LTC homes in Ontario.
  To produce an inferential statistical model of the proximity and health factors that may be associated with COVID-19 disease activity at the level of the PHU regions in Ontario.</description>
     </item>
@@ -45,6 +59,7 @@ body { background-color: #fff; margin: 1em auto; max-width: 700px; overflow: vis
       
       <guid>https://khobbs3.github.io/projects/shinyapp/</guid>
       <description>Master of Data Science Project, UBC
+A search of resale inventory for potential home buyers using property valuation from the MPV package in R.
 https://ktshinyapps.shinyapps.io/housing/</description>
     </item>
     
@@ -64,10 +79,10 @@ A 5-month travel through Asia and Europe moulded much of my current outlook. In 
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://khobbs3.github.io/publications/</guid>
-      <description>filtR: a function for filtering error-derived OTUs/ASVs from count tables (2018) Authors: Ben Joris, Greg Gloor, Jean Macklaim, Daniel Giguere, Kaitlyn Hobbs
-Organization: Gloor Lab, The University of Western Ontario.
-Radiation Dose Estimation by Completely Automated Interpretation of the Dicentric Chromosome Assay (2018) Authors: Yanxin Li, Ben C Shirley, Ruth C Wilkins, Farrah Norton, Joan H M Knoll, Peter K Rogan
-Organization: Cytognomix, The University of Western Ontario.</description>
+      <description>University of British Columbia, Master of Data Science – Capstone project 2020 (2020)  Authors: Ngan Lyle, Sofia Bahmutsky, Kaitlyn Hobbs and Shreeram Murali
+ Organization: Statistics Canada &amp;amp; University of British Columbia - Okanagan
+  filtR: a function for filtering error-derived OTUs/ASVs from count tables (2018)  Authors: Ben Joris, Greg Gloor, Jean Macklaim, Daniel Giguere, Kaitlyn Hobbs
+ Organization: Gloor Lab, The University of Western Ontario.</description>
     </item>
     
     <item>
