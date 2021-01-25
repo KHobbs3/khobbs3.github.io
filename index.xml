@@ -13,10 +13,10 @@
     
     <item>
       <title>Shiny App - Covid-19 Cases and Intervention Timeline</title>
-      <link>https://khobbs3.github.io/projects/covidtimeline/</link>
+      <link>https://khobbs3.github.io/projects/shinyapp-copy/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://khobbs3.github.io/projects/covidtimeline/</guid>
+      <guid>https://khobbs3.github.io/projects/shinyapp-copy/</guid>
       <description>Project currently under construction Timeline of COVID-19 cases and policy interventions in Canada&amp;rsquo;s Top 30 population centres.
 https://ktshinyapps.shinyapps.io/CovidTimeline/
 Contribute
@@ -83,16 +83,6 @@ A 5-month travel through Asia and Europe moulded much of my current outlook. In 
  Organization: Statistics Canada &amp;amp; University of British Columbia - Okanagan
   filtR: a function for filtering error-derived OTUs/ASVs from count tables (2018)  Authors: Ben Joris, Greg Gloor, Jean Macklaim, Daniel Giguere, Kaitlyn Hobbs
  Organization: Gloor Lab, The University of Western Ontario.</description>
-    </item>
-    
-    <item>
-      <title>An alternative method to processing sequences for taxonomic classification</title>
-      <link>https://khobbs3.github.io/projects/thesis/</link>
-      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://khobbs3.github.io/projects/thesis/</guid>
-      <description>BMSc. Biochemistry Thesis, UWO
-https://github.com/KHobbs3/4483</description>
     </item>
     
   </channel>
